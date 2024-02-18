@@ -27,8 +27,7 @@ int Client::readMessage(char* buffer, int32_t size)
 {
 	unsigned short length;
 	int recv_result;
-	recv_result = recv(skt, (char*)&length, 2, 0);
-	length = htons(length);
+	recv_result = recv(skt, (char*)&length, 1, 0);
 	if (recv_result == 0)
 		return SHUTDOWN;
 	if (recv_result == SOCKET_ERROR)
@@ -49,14 +48,14 @@ int Client::readMessage(char* buffer, int32_t size)
 }
 int Client::sendMessage(char* data, int32_t length)
 {
-	char* buffer = new char[2 + length];
+	char* buffer = new char[1 + length];
 	if (length != (unsigned char)length)
 		return PARAMETER_ERROR;
-	*(unsigned short*)buffer = htons(length);
+	*buffer = (char)(unsigned char)length;
 	// Then the string
-	memcpy(buffer + 2, data, length);
+	memcpy(buffer + 1, data, length);
 	//cajbcoa isjbdocivsbao
-	int send_result = send(skt, buffer, length + 2, 0);
+	int send_result = send(skt, buffer, length + 1, 0);
 	if (send_result == 0)
 		return SHUTDOWN;
 	if (send_result == SOCKET_ERROR)
