@@ -25,7 +25,7 @@ int Client::init(uint16_t port, char* address)
 }
 int Client::readMessage(char* buffer, int32_t size)
 {
-	unsigned short length;
+	unsigned char length;
 	int recv_result;
 	recv_result = recv(skt, (char*)&length, 1, 0);
 	if (recv_result == 0)

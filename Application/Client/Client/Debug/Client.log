@@ -2,4 +2,5 @@
   Client.cpp
   ClientWrapper.cpp
   Generating Code...
-C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Application\Client\ClientWrapper.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Application\Client\Client\Debug\vc142.pdb
+     Creating library C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Client.lib and object C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Client.exp
+  Client.vcxproj -> C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Client.dll
