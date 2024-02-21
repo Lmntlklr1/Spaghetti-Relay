@@ -2,4 +2,5 @@
   Server.cpp
   ServerWrapper.cpp
   Generating Code...
-C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Application\platform.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Application\Server\Debug\vc142.pdb
+     Creating library C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Server.lib and object C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Server.exp
+  Server.vcxproj -> C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Debug\Server.dll
