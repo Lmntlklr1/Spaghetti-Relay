@@ -27,4 +27,3 @@ C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghett
 C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Interface\obj\Debug\Spaghetti Relay GUI.csproj.CoreCompileInputs.cache
 C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Interface\obj\Debug\Spaghetti Relay GUI.exe
 C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Interface\obj\Debug\Spaghetti Relay GUI.pdb
-C:\Users\Lmntlklr1\Downloads\SpaghettiRelay\SpaghettiRelay\Project 2018\Spaghetti-Relay\Interface\obj\Debug\Spaghetti Relay GUI.csproj.AssemblyReference.cache
